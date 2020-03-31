@@ -137,3 +137,8 @@ a, h5 {
 .card {
   border: none !important;
 }
+
+i {
+  font-size: 36px;
+  color: grey;
+}
