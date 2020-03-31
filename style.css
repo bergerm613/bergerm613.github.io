@@ -12,7 +12,7 @@ body {
 }
 
 
-a {
+a, h5 {
   font-family: 'Thasadith', sans-serif;
 }
 
@@ -94,7 +94,7 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
-  color: #1D6676;
+  color: #ebd7da;
 }
 
 .blerb-text {
@@ -105,7 +105,7 @@ a {
 
 .blerb {
   margin-top: 80px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .gallery-container {
@@ -114,4 +114,26 @@ a {
 
 .gallery-row {
   padding-bottom: 50px;
+}
+
+
+
+.tools-img {
+  width: 100%;
+  z-index: 0;
+}
+
+.cards-header {
+  margin-top: 120px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Thasadith', sans-serif;
+}
+
+.card-deck {
+  margin: 30px !important;
+}
+
+.card {
+  border: none !important;
 }
