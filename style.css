@@ -3,18 +3,40 @@ body {
   background-color: white;
 }
 
-.pg-title {
-  border-bottom: 1px solid rgb(46, 45, 45);
-  text-align: center;
-  padding: 15px;
+
+h3 {
   font-family: Swanky and Moo Moo;
-  font-size: 60px;
+  font-style: normal;
+  font-weight: normal;
+  color: #b67c85;
 }
 
-
-a, h5 {
+h2 h5 {
   font-family: 'Thasadith', sans-serif;
 }
+
+p {
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Thasadith', sans-serif;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.greyed-pic-background {
+  background-image: url("hair-tools-bw.jpg");
+  background-repeat:no-repeat;
+  padding: 125px 0px;
+}
+
 
 .display-4 {
   font-size: 2.5rem;
@@ -43,7 +65,7 @@ a, h5 {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  font-size: xx-large; 
+  font-size: large; 
 }
 
 .nav-scroller .nav-link {
@@ -62,6 +84,8 @@ a, h5 {
 .grey-background {
   background-color:#f7f7f7;
   padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid grey;
 }
 
 .footer {
@@ -82,8 +106,7 @@ a, h5 {
 
 .st {
   width: 275px;
-  height: 274px;
-  background: url(st.jpg);
+  height: 274px;  
   border-radius: 337.5px;
   margin-top: 80px;
 }
@@ -97,23 +120,13 @@ a, h5 {
   color: #ebd7da;
 }
 
-.blerb-text {
-  font-weight: bold;
-  font-size: large;
-  font-family: 'Thasadith', sans-serif;
-}
-
 .blerb {
   margin-top: 80px;
   margin-left: 100px;
 }
 
-.gallery-container {
+ .gallery-container {
   padding-top: 40px;
-}
-
-.gallery-row {
-  padding-bottom: 50px;
 }
 
 
@@ -141,4 +154,31 @@ a, h5 {
 i {
   font-size: 36px;
   color: grey;
+}
+
+.pink-box {
+  /* pink */
+  background: #E5C6CB;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 0 125px;
+
+  /* shadow */
+  -moz-box-shadow:    3px 3px 5px 6px #aaaaaa;
+  -webkit-box-shadow: 3px 3px 5px 6px #aaaaaa;
+  box-shadow:         3px 3px 5px 6px #aaaaaa;
+}
+
+.black-outline {
+  border: 1px solid #424242;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+.hair-options-header {
+  font-size: 50px;
+}
+
+.hair-options {
+  font-size: 38px;
 }
