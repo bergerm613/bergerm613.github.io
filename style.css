@@ -31,12 +31,16 @@ hr {
   margin: 0 !important;
 }
 
-.right{
-  float:right;
+.right {
+  float: right;
 }
 
-.left{
-  float:left;
+.left {
+  float: left;
+}
+
+.clear {
+  clear: both;
 }
 
 .greyed-pic-background {
@@ -108,9 +112,6 @@ hr {
 .footer-text {
   font-family: 'Thasadith', sans-serif;
 }
-
-
-
 
 .st {
   width: 275px;
