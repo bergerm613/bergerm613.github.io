@@ -31,6 +31,14 @@ hr {
   margin: 0 !important;
 }
 
+.right{
+  float:right;
+}
+
+.left{
+  float:left;
+}
+
 .greyed-pic-background {
   background-image: url("hair-tools-bw.jpg");
   background-repeat:no-repeat;
@@ -121,7 +129,7 @@ hr {
 }
 
 .blerb {
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 100px;
 }
 
@@ -177,8 +185,19 @@ i {
 
 .hair-options-header {
   font-size: 50px;
+  text-align: center;
 }
 
 .hair-options {
-  font-size: 38px;
+  font-size: 45px;
+}
+
+.hair-suboptions {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.hair-options-notes {
+  font-size: 35px;
+  text-align: center;
 }
