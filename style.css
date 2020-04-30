@@ -51,16 +51,6 @@ hr {
   padding: 125px 0px;
 }
 
-
-.display-4 {
-  font-size: 2.5rem;
-}
-@media (min-width: 768px) {
-  .display-4 {
-    font-size: 3rem;
-  }
-}
-
 .nav-scroller {
   position: relative;
   z-index: 2;
@@ -195,4 +185,33 @@ i {
 
 .hair-options-notes {
   font-size: 35px;
+}
+
+@media (max-width: 452px) {
+  .blerb {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 885px) {
+  .pink-box {
+    margin: 0 25px;
+  }
+
+  .hair-options-header {
+    font-size: 35px;
+  }
+  
+  .hair-options {
+    font-size: 30px;
+  }
+  
+  .hair-suboptions {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  .hair-options-notes {
+    font-size: 19px;
+  }
 }
