@@ -145,7 +145,7 @@ hr {
 }
 
 .card-deck {
-  margin: 30px !important;
+  margin: 30px 30px 110px 30px !important;
 }
 
 .card {
@@ -165,15 +165,19 @@ i {
   margin: 0 125px;
 
   /* shadow */
-  -moz-box-shadow:    3px 3px 5px 6px #aaaaaa;
-  -webkit-box-shadow: 3px 3px 5px 6px #aaaaaa;
-  box-shadow:         3px 3px 5px 6px #aaaaaa;
+  -webkit-box-shadow: 0px 0px 36px -1px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 0px 36px -1px rgba(0,0,0,0.7);
+  box-shadow: 0px 0px 36px -1px rgba(0,0,0,0.7);
 }
 
 .black-outline {
-  border: 1px solid #424242;
+  border: .5px solid #636363;
   border-radius: 15px;
   padding: 50px;
+
+  -webkit-box-shadow: 0px 0px 23px -11px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 0px 23px -11px rgba(0,0,0,0.6);
+  box-shadow: 0px 0px 23px -11px rgba(0,0,0,0.6);
 }
 
 .hair-options-header {
