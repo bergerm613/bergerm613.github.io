@@ -45,6 +45,8 @@ hr {
 
 .greyed-pic-background {
   background-image: url("hair-tools-bw.jpg");
+  background-position: center top;
+  background-size: 100% auto;
   background-repeat:no-repeat;
   padding: 125px 0px;
 }
